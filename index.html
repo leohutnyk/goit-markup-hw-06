@@ -53,12 +53,85 @@
             </li>
           </ul>
         </address>
+        <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contact-item">
+                <a class="mobile-contact-link" href="mailto:info@dewstudio.com"
+                  >info@dewstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-social-list">
+            <li class="mobile-social-list-item">
+              <a class="mobile-social-list-link" href="">
+                <svg class="mobile-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a class="mobile-social-list-link" href="">
+                <svg class="mobile-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a class="mobile-social-list-link" href="">
+                <svg class="mobile-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a class="mobile-social-list-link" href="">
+                <svg class="mobile-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- CLOSE PAGE HEADER -->
     <main>
       <!-- OPEN HERO SECTION -->
-      <section class="hero-section">
+      <section class="hero-section hiden">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
@@ -66,7 +139,7 @@
       </section>
       <!-- CLOSE HERO SECTION -->
       <!-- OPEN BENEFITS SECTION -->
-      <section class="benefits-section">
+      <section class="benefits-section hiden">
         <div class="container benefits-container">
           <h2 class="section-title visually-hidden">Our Benefits</h2>
           <ul class="benefits-list">
@@ -123,7 +196,7 @@
       </section>
       <!-- CLOSE BENEFITS SECTION -->
       <!-- OPEN TEAM SECTION -->
-      <section class="team-section">
+      <section class="team-section hiden">
         <div class="container">
           <h2 class="section-title team-section-title">Our Team</h2>
           <ul class="team-member-list">
@@ -304,7 +377,7 @@
       </section>
       <!-- CLOSE TEAM SECTION -->
       <!-- OPEN PORTFOLIO SECTION -->
-      <section class="portfolio-section">
+      <section class="portfolio-section hiden">
         <div class="container">
           <h2 class="section-title portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -434,7 +507,7 @@
       <!-- CLOSE PORTFOLIO SECTION -->
     </main>
     <!-- OPEN FOOTER -->
-    <footer class="page-footer">
+    <footer class="page-footer hiden">
       <div class="container footer-container">
         <div class="footer-logo-box">
           <a class="footer-logo" href="./index.html"
@@ -503,7 +576,7 @@
     </footer>
     <!-- CLOSE FOOTER -->
     <!-- MODAL WINDOWS -->
-    <div class="modal-backdrop">
+    <div class="modal-backdrop hiden">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
