@@ -364,6 +364,8 @@ button {
   }
 }
 
+/* Hero section */
+
 .hero-section {
   max-width: 320px;
   margin-left: auto;
@@ -371,14 +373,25 @@ button {
   padding: 52px 0px;
   background-color: #2e2f42;
   background-image: linear-gradient(
-      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bg/mob/Dark-bg.jpg);
+    url('../images/bg/mob/Dark-bg-mob-@1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/bg/mob/Dark-bg-mob-@2x.jpg');
+  }
 }
 
 .main-title {
@@ -421,11 +434,25 @@ button {
     max-width: 768px;
     padding: 136px 0px;
     background-image: linear-gradient(
-        to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bg/pad/Dark-bg.jpg);
+      url('../images/bg/pad/Dark-bg-tab-@1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/bg/pad/Dark-bg-tab-@2x.jpg');
+    }
   }
 
   .main-title {
@@ -442,11 +469,25 @@ button {
     max-width: 1440px;
     padding: 188px 0px;
     background-image: linear-gradient(
-        to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bg/desc/people-office.jpg);
+      url('../images/bg/desc/people-office-desc-@1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/bg/desc/people-office-desc-@2x.jpg');
+    }
   }
 
   .main-title {
