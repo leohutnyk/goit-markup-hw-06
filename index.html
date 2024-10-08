@@ -59,7 +59,7 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu is-open">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close">
             <svg class="close-icon" width="8" height="8">
@@ -69,7 +69,7 @@
           <nav class="mobile-nav">
             <ul class="mobile-menu-list">
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link current" href="./index.html"
+                <a class="mobile-menu-link mobile-current" href="./index.html"
                   >Studio</a
                 >
               </li>
@@ -84,7 +84,9 @@
           <address class="mobile-menu-contacts">
             <ul class="mobile-contacts-list">
               <li class="mobile-contact-item">
-                <a class="mobile-contact-link" href="tel:+110001111111"
+                <a
+                  class="mobile-contact-link mobile-current"
+                  href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
               </li>
@@ -576,7 +578,7 @@
     </footer>
     <!-- CLOSE FOOTER -->
     <!-- MODAL WINDOWS -->
-    <div class="modal-backdrop hiden">
+    <div class="modal-backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -659,8 +661,10 @@
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="order-form-policy-link" href=""> Privacy Policy </a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="order-form-policy-link" href=""> Privacy Policy </a>
+              </span>
             </label>
           </div>
           <button class="order-form-submit-btn" type="submit">Send</button>
